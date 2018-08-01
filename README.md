@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # VovaCodeModule
 
 [![CI Status](https://img.shields.io/travis/Yongjian Ling/VovaCodeModule.svg?style=flat)](https://travis-ci.org/Yongjian Ling/VovaCodeModule)
@@ -27,3 +28,6 @@ Yongjian Ling, yjling@i9i8.com
 ## License
 
 VovaCodeModule is available under the MIT license. See the LICENSE file for more info.
+=======
+# VovaPrivateCodeTest
+>>>>>>> 58550e6fe22b99ae5ec11bb0ecb26612a9045604
