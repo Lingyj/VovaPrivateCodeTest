@@ -10,6 +10,10 @@ PODS:
   - VovaCodeModule (0.1.0):
     - SnowplowTracker (~> 0.8.0)
     - UICKeyChainStore (~> 2.1.1)
+    - VovaCodeModule/VovaSubModule (= 0.1.0)
+  - VovaCodeModule/VovaSubModule (0.1.0):
+    - SnowplowTracker (~> 0.8.0)
+    - UICKeyChainStore (~> 2.1.1)
 
 DEPENDENCIES:
   - VovaCodeModule (from `../`)
@@ -30,7 +34,7 @@ SPEC CHECKSUMS:
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SnowplowTracker: a4b9eff144099253bfaed31ede74447a48f9f02c
   UICKeyChainStore: 239558492fa260531a0774cfc611ea83a6eaff3a
-  VovaCodeModule: f4ee704c98a8612758623fae0078eb28b1b03445
+  VovaCodeModule: 06cfb43cf735537a7c64e2ece31fb3c82eb1d5d0
 
 PODFILE CHECKSUM: 12c7dbfc72c78f27799d9fae641c2c5bf451029b
 

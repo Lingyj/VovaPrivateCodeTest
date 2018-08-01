@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "VovaCodeModule"
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'VovaCodeModule.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -33,5 +33,10 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'SnowplowTracker', '~> 0.8.0'
   s.dependency 'UICKeyChainStore', '~> 2.1.1'
+
+
+  s.subspec 'VovaSubModule' do |cs|
+       cs.source_files = 'VovaCodeModule/Classes/VovaSubModule/**/*'
+  end
 
 end

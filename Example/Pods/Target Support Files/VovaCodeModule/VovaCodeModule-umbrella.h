@@ -10,7 +10,13 @@
 #endif
 #endif
 
-#import "SomeCode.h"
+#import "Header.h"
+#import "SnowPlowAgent.h"
+#import "SnowplowAppCommonParamsProtocol.h"
+#import "SnowplowCommonParamsProtocol.h"
+#import "SnowplowScreenViewParams.h"
+#import "SnowplowScreenViewParamsProtocol.h"
+#import "SPDeviceID.h"
 
 FOUNDATION_EXPORT double VovaCodeModuleVersionNumber;
 FOUNDATION_EXPORT const unsigned char VovaCodeModuleVersionString[];

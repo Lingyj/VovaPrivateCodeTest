@@ -10,10 +10,12 @@
 		0C114284C0DE59262CB356504B923F8B /* UICKeyChainStore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD7B2460DEF4A4C6F8BF1AD1F1B57035 /* UICKeyChainStore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		10A2A06971CAE73D2EFFB2D4A2429CFA /* SnowplowTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09876D404B03626C04FBB961952044E2 /* SnowplowTracker-dummy.m */; };
 		1204ECBC52F1E8EAC51CF479E108DB6E /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC9430A6BCF3D20587863A3B1AEC1B2 /* Reachability-dummy.m */; };
+		12BAB3A6A146144EDF5DEF9A46A25271 /* VovaCodeModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22C28F7B3648B5657FE0E147BAFC7BA0 /* VovaCodeModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		12CF763538597F87EE7D961BD9976149 /* SPWeakTimerTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9402E0A3D02F2113ACDA91AF64E4E6 /* SPWeakTimerTarget.m */; };
 		1DCF56C84F20DCA251644283E78592FC /* UICKeyChainStore.h in Headers */ = {isa = PBXBuildFile; fileRef = E79B0558E8BFB1997B647EB13279148B /* UICKeyChainStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22554065FA07F1BFE5308A685394CB12 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 0850E44B514BA4BEA9A973807CEF80D0 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22EABA665CDE3DD2BD8C82EE0BE74D30 /* SPRequestResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B215FA4E7AB4B251914B29BD2F6C878 /* SPRequestResponse.m */; };
+		2643CF0F27DECC92721EC5D7136F3B6E /* SPDeviceID.m in Sources */ = {isa = PBXBuildFile; fileRef = 578954A0D963E1377A5FF30ED46FEADD /* SPDeviceID.m */; };
 		289D3B4C05816D9F4E3C5AB7B9E186AC /* SPSession.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA7B62ACCE0063212C1EBEDBA672771 /* SPSession.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2EA0E043F23EA151051A9F7697F1B889 /* SnowplowTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C5EC517D3D2A130F8A9D7CABBE27CAB /* SnowplowTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2EB1827874AF95EFBAABC03078D5D1CF /* SPSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 958219B0D94F22112A8AF05A0EACF26E /* SPSession.m */; };
@@ -21,20 +23,12 @@
 		359795B1D30D67250D57F601E5619709 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC0DD815BE7A42C73F39D76A7F8B921 /* Foundation.framework */; };
 		37F097E2269EF1BD238AD7449D796445 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F4999264C104454535646480D9A23 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		38AC1E0D216E360AF1B9889C9E104B21 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0E843D23F698C25A9FED19261A2D6D /* CoreTelephony.framework */; };
-		3B876CC42111A79700ECFC2F /* TestCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B876CC22111A79700ECFC2F /* TestCode.h */; };
-		3B876CC52111A79700ECFC2F /* TestCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B876CC22111A79700ECFC2F /* TestCode.h */; };
-		3B876CC62111A79700ECFC2F /* TestCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B876CC22111A79700ECFC2F /* TestCode.h */; };
-		3B876CC72111A79700ECFC2F /* TestCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B876CC22111A79700ECFC2F /* TestCode.h */; };
-		3B876CC82111A79700ECFC2F /* TestCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B876CC22111A79700ECFC2F /* TestCode.h */; };
-		3B876CC92111A79700ECFC2F /* TestCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B876CC22111A79700ECFC2F /* TestCode.h */; };
-		3B876CCA2111A79700ECFC2F /* TestCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B876CC22111A79700ECFC2F /* TestCode.h */; };
-		3B876CCB2111A79700ECFC2F /* TestCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B876CC32111A79700ECFC2F /* TestCode.m */; };
-		3B876CCC2111A79700ECFC2F /* TestCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B876CC32111A79700ECFC2F /* TestCode.m */; };
-		3B876CCD2111A79700ECFC2F /* TestCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B876CC32111A79700ECFC2F /* TestCode.m */; };
-		3B876CCE2111A79700ECFC2F /* TestCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B876CC32111A79700ECFC2F /* TestCode.m */; };
-		3B876CCF2111A79700ECFC2F /* TestCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B876CC32111A79700ECFC2F /* TestCode.m */; };
-		3B876CD02111A79700ECFC2F /* TestCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B876CC32111A79700ECFC2F /* TestCode.m */; };
-		3B876CD12111A79700ECFC2F /* TestCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B876CC32111A79700ECFC2F /* TestCode.m */; };
+		3B876D082111D3AD00ECFC2F /* SubCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B876D062111D3AD00ECFC2F /* SubCode.h */; };
+		3B876D092111D3AD00ECFC2F /* SubCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B876D062111D3AD00ECFC2F /* SubCode.h */; };
+		3B876D0A2111D3AD00ECFC2F /* SubCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B876D062111D3AD00ECFC2F /* SubCode.h */; };
+		3B876D0B2111D3AD00ECFC2F /* SubCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B876D072111D3AD00ECFC2F /* SubCode.m */; };
+		3B876D0C2111D3AD00ECFC2F /* SubCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B876D072111D3AD00ECFC2F /* SubCode.m */; };
+		3B876D0D2111D3AD00ECFC2F /* SubCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B876D072111D3AD00ECFC2F /* SubCode.m */; };
 		3B9E0231E230170B2F32007619F6A576 /* SPEventStore.h in Headers */ = {isa = PBXBuildFile; fileRef = E19630AD14A1194FC52A5DBFB8181BEC /* SPEventStore.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3BED81B5660A39B8A6725729A6540FCA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B53BEC1B82D989C26B117C84774013 /* Security.framework */; };
 		3E11A67464B0116B974A9AE04103E563 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC0DD815BE7A42C73F39D76A7F8B921 /* Foundation.framework */; };
@@ -44,6 +38,8 @@
 		547A6C5D5D7122D2646E7C655E3AE1C9 /* SPSelfDescribingJson.h in Headers */ = {isa = PBXBuildFile; fileRef = C11DB273AD07980A12DE6C21BDE0BC20 /* SPSelfDescribingJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		550B752B3274928028EAD8C7B5F12780 /* SPPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = BD7C88FB386B30ECB6A642B9845A4638 /* SPPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		556593F257D6BE52F6F6F6028E04B6AA /* Pods-VovaCodeModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 127010D0FDCF24197C1EB0348DCF2EB1 /* Pods-VovaCodeModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A8F11C3F2EDAF3F744D702319E9CA4F /* SnowplowCommonParamsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 73DD4E3E689D0589C533D769413A3ABF /* SnowplowCommonParamsProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		690C3DE177653578F6F8836038DC3CFD /* SnowPlowAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 108FEDD069FF47F68C6D0B059DA4BDCD /* SnowPlowAgent.m */; };
 		6A94A17E8DF171297F9A735F53D22441 /* Pods-VovaCodeModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6C718BF695BF0BA489D7A04DD4B0E1 /* Pods-VovaCodeModule_Example-dummy.m */; };
 		6BF77FB4559A453633F6849AB1C41748 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9462CB61D5B111281E201F7CFD14F42C /* UIKit.framework */; };
 		6D6A50634CE7AD7EB5AA5E1EEC2CF456 /* SPTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 42A49C73A3A116C71F00314FEF31E629 /* SPTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -52,17 +48,22 @@
 		7210275458A8C0675CC34B9277981E51 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC88FDE82319AB0F1A249D0EB85D00C /* Reachability.m */; };
 		72541FD85CFF0A9594041A11AC5C2E01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC0DD815BE7A42C73F39D76A7F8B921 /* Foundation.framework */; };
 		7DAD730634799877A9FEF1B98CED9A38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC0DD815BE7A42C73F39D76A7F8B921 /* Foundation.framework */; };
+		8070CA7F279A86A4BEB36EF47A0FE260 /* VovaCodeModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C84184FF57FAAAB1E066264A1B3871E3 /* VovaCodeModule-dummy.m */; };
 		84755A70E03939ED494E457FC9CE3A2F /* SPSubject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5374D45CB8186F04FFA70B0D62EE1792 /* SPSubject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86DBF523A712C10C786C8866CED0F296 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EC8241CC13808AD56476D7084DDBCC /* Reachability.framework */; };
 		8712AE6312C93EA1606B7FF1B79E2EE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC0DD815BE7A42C73F39D76A7F8B921 /* Foundation.framework */; };
 		87ECA447DB887426665260651B7F147E /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2417F106A2A38E31A3A0CFDBBD8ADD20 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		888F665B920BFAE077559A6D97A28950 /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CA90C08891C1AE74777B93439ACE40D /* Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C461F1CE95A8A83230BF607B7451CA0 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C09E004A8FCFDE3AEAA153B669FFE79 /* FMDB.framework */; };
 		91268E1D4B3F539247E0FE1292838AF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC0DD815BE7A42C73F39D76A7F8B921 /* Foundation.framework */; };
 		92E5338F5C0F20FFBA8AF1A6B8C830C5 /* UICKeyChainStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD5729234FF221745980EEE855EF1F0 /* UICKeyChainStore.framework */; };
+		962B08C8260A96717B7243993B33B831 /* SnowplowAppCommonParamsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DE7DD1F0B184D426B97B330047AF87C8 /* SnowplowAppCommonParamsProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96E70B43FC04BC99AED1BBD4FB1D7581 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE986AA932E293099D7EFCB66DF22B6E /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99D90C0F042891E49DFF966C9B00EAD8 /* SnowplowScreenViewParamsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CE405CF8A58AA73519DE839040E42E9 /* SnowplowScreenViewParamsProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B8D84996694C541CD3434386E0A081A /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 61644E1E73A6B8DE97B2D16058C20891 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C11A290C9C5866A185A54F1EC04E2BB /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA55A0A94D2B88FACA68AB0EA54797A /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		9C95C36765B976B0865E63A2AC95BA7D /* SPSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = A61D6C797970AC58B5CDAC73F6198774 /* SPSubject.m */; };
+		A093A902BE9C91910DB34B0CF761AF1C /* SPDeviceID.h in Headers */ = {isa = PBXBuildFile; fileRef = 809D20708C39DF5ED0D8980FDDD2BA5D /* SPDeviceID.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1B5D80A8998311B8C9043E6942925E6 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7529C0AE06657FEF652719DF4AE897 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		A2AA6256B5F4229BD17862F96140F581 /* SPUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 114B988BB5BC5BD82B7F9625B8E3692E /* SPUtilities.m */; };
 		A548833BE5FAD40830428F36E77D0F52 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0648BD20645FCE3A7299DE027C6D1850 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -71,6 +72,7 @@
 		A8224A91B56E340F4229D8739EC4DFE6 /* SPPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = EED92398AC543811F21B6FB791599EAD /* SPPayload.m */; };
 		ADE47A13AB5C1966D2082436C0D3B1CA /* Snowplow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C52D42BC1DD3C0CB7EFB4DC55CBB4A1 /* Snowplow.m */; };
 		AE42F6BD2B4F444E1DC853CC1A0E9B51 /* SPEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = D4015C5A78C10C24AEE6F21CDF88001D /* SPEvent.m */; };
+		AF000CE5B5010B43A087C9DAEB85B353 /* SnowPlowAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 43770E18B798AFC886D96596FBF04846 /* SnowPlowAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B02816AF01F75FB9EFAEFD2DC45319F9 /* SPEventStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C010AAB0A757B0C8A1F8CAA0074D6A /* SPEventStore.m */; };
 		B246D3996F28F53F2F713089011C3AC0 /* Snowplow.h in Headers */ = {isa = PBXBuildFile; fileRef = 11EDBCFBD248E905E2968246CA91216C /* Snowplow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B43AFD53EC21BC13C8C3A24F38D777BB /* SPRequestResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 46972CD4E7692C573051ADAD7760EF14 /* SPRequestResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -81,6 +83,7 @@
 		C82BCC8CB01B8F21607C29A153F28E85 /* SPEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC1527069FF3669CB8A648ED8375ECE /* SPEmitter.m */; };
 		CCB74062CE0F4B8E5B7483599BC398DA /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = FB0BC0B752ED00A242F11373B478B7BB /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4332FC00EB2484EAFFC03657BB8400B /* SPEmitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 93FA0A76F076A9EF530451A7CFBBFC0F /* SPEmitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4487AADC27BD210DFCE0383ED71913F /* SnowplowScreenViewParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 41ABD4B76E1636A54BE26EC8ECB785C5 /* SnowplowScreenViewParams.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5991941DC41DDDDDACAE0B5D47A4639 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEEAA43128E930E2858A3A0D947F0FA /* FMDB-dummy.m */; };
 		D73ADCDD8EB66A6E665684B6FCAAAA7A /* OpenIDFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D764D0899DE310E1DA533D3AEE5782 /* OpenIDFA.m */; };
 		DF4E5EEDAD53F96181FEE85CAF815820 /* Pods-VovaCodeModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FEA5676AE43D2F1CE2216A98DAD31C /* Pods-VovaCodeModule_Tests-dummy.m */; };
@@ -190,17 +193,23 @@
 		0B6C718BF695BF0BA489D7A04DD4B0E1 /* Pods-VovaCodeModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VovaCodeModule_Example-dummy.m"; sourceTree = "<group>"; };
 		0DC0DD815BE7A42C73F39D76A7F8B921 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		0F7F4999264C104454535646480D9A23 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		108FEDD069FF47F68C6D0B059DA4BDCD /* SnowPlowAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SnowPlowAgent.m; sourceTree = "<group>"; };
 		114B988BB5BC5BD82B7F9625B8E3692E /* SPUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPUtilities.m; path = Snowplow/SPUtilities.m; sourceTree = "<group>"; };
 		11EDBCFBD248E905E2968246CA91216C /* Snowplow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Snowplow.h; path = Snowplow/Snowplow.h; sourceTree = "<group>"; };
 		127010D0FDCF24197C1EB0348DCF2EB1 /* Pods-VovaCodeModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VovaCodeModule_Tests-umbrella.h"; sourceTree = "<group>"; };
 		133685861FD3266856F7D39B75724725 /* Pods-VovaCodeModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VovaCodeModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1509BC0ADF70A61B4A9805FBCFA1CCF8 /* Pods-VovaCodeModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VovaCodeModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1564DAFAC4CABFD3B058E4FFE12FAF37 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		174E2558F39FD5D4A8690323250478F4 /* VovaCodeModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VovaCodeModule-prefix.pch"; sourceTree = "<group>"; };
 		1AC9430A6BCF3D20587863A3B1AEC1B2 /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
+		1CE405CF8A58AA73519DE839040E42E9 /* SnowplowScreenViewParamsProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SnowplowScreenViewParamsProtocol.h; sourceTree = "<group>"; };
 		1E736478E2473BF1B85B76BAE0179A26 /* UICKeyChainStore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICKeyChainStore-prefix.pch"; sourceTree = "<group>"; };
 		1EDB46C2B2B66A3EBA23863FB405EC71 /* Pods-VovaCodeModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VovaCodeModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1EE4DF07A669A47F25B4569E7DE76883 /* VovaCodeModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VovaCodeModule.xcconfig; sourceTree = "<group>"; };
+		22C28F7B3648B5657FE0E147BAFC7BA0 /* VovaCodeModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VovaCodeModule-umbrella.h"; sourceTree = "<group>"; };
 		2417F106A2A38E31A3A0CFDBBD8ADD20 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
 		2C5EC517D3D2A130F8A9D7CABBE27CAB /* SnowplowTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnowplowTracker-umbrella.h"; sourceTree = "<group>"; };
+		2CA90C08891C1AE74777B93439ACE40D /* Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		318F9DBC37936A549B88A34B6AF58A25 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3245523B542F9F20D0A9D0057C0D19AB /* VovaCodeModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VovaCodeModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C010AAB0A757B0C8A1F8CAA0074D6A /* SPEventStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPEventStore.m; path = Snowplow/SPEventStore.m; sourceTree = "<group>"; };
@@ -208,13 +217,16 @@
 		37D764D0899DE310E1DA533D3AEE5782 /* OpenIDFA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OpenIDFA.m; path = Snowplow/OpenIDFA.m; sourceTree = "<group>"; };
 		3A16C497AFB761BAAE622F98A032089C /* UICKeyChainStore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICKeyChainStore-dummy.m"; sourceTree = "<group>"; };
 		3AD5729234FF221745980EEE855EF1F0 /* UICKeyChainStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UICKeyChainStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B876CC22111A79700ECFC2F /* TestCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCode.h; sourceTree = "<group>"; };
-		3B876CC32111A79700ECFC2F /* TestCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCode.m; sourceTree = "<group>"; };
+		3B876D062111D3AD00ECFC2F /* SubCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubCode.h; sourceTree = "<group>"; };
+		3B876D072111D3AD00ECFC2F /* SubCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubCode.m; sourceTree = "<group>"; };
 		3BC8178DBFD4E7A2CAB4CE49F563091A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CA55A0A94D2B88FACA68AB0EA54797A /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
 		3D93E735B8332634A5C529DFA9B472DB /* SnowplowTracker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnowplowTracker-prefix.pch"; sourceTree = "<group>"; };
 		3ECAE6BBC8D501DD5E5F394A112715C5 /* SPUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUtilities.h; path = Snowplow/SPUtilities.h; sourceTree = "<group>"; };
+		413DA2F130459A50A689BAABBF419578 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41ABD4B76E1636A54BE26EC8ECB785C5 /* SnowplowScreenViewParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SnowplowScreenViewParams.h; sourceTree = "<group>"; };
 		42A49C73A3A116C71F00314FEF31E629 /* SPTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTracker.h; path = Snowplow/SPTracker.h; sourceTree = "<group>"; };
+		43770E18B798AFC886D96596FBF04846 /* SnowPlowAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SnowPlowAgent.h; sourceTree = "<group>"; };
 		448687AEED37A250E43D00F4CAB6E947 /* SPTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTracker.m; path = Snowplow/SPTracker.m; sourceTree = "<group>"; };
 		46972CD4E7692C573051ADAD7760EF14 /* SPRequestResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPRequestResponse.h; path = Snowplow/SPRequestResponse.h; sourceTree = "<group>"; };
 		47D9DA914ADE77A7BB506E2D72FCC39F /* Pods-VovaCodeModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VovaCodeModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -223,25 +235,30 @@
 		4D66E0175153325A898A646747E4A82E /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F74D26D029FCFE91AB3A6E9CF375505 /* SPEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPEvent.h; path = Snowplow/SPEvent.h; sourceTree = "<group>"; };
 		5374D45CB8186F04FFA70B0D62EE1792 /* SPSubject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPSubject.h; path = Snowplow/SPSubject.h; sourceTree = "<group>"; };
+		578954A0D963E1377A5FF30ED46FEADD /* SPDeviceID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SPDeviceID.m; sourceTree = "<group>"; };
 		5C52D42BC1DD3C0CB7EFB4DC55CBB4A1 /* Snowplow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Snowplow.m; path = Snowplow/Snowplow.m; sourceTree = "<group>"; };
 		5E7A5C834CED4B71A5EC5470C1F92598 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
 		61644E1E73A6B8DE97B2D16058C20891 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
 		62961AC14EF90463EE14058C917BC571 /* Pods-VovaCodeModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VovaCodeModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6403C60AFECAEF8B52CD89AE690C870F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654E148D20A2A5F46A8FB44043AFD513 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		678F7AE0473B86870F7321639343D0B4 /* Reachability.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Reachability.modulemap; sourceTree = "<group>"; };
 		68B3EB3F17D874B44BE91958B5BEB083 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
 		6A92176F793DD7A774B24DFEFCE64E46 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C09E004A8FCFDE3AEAA153B669FFE79 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7386B9491ED6C159F43941A4E82289C5 /* Pods-VovaCodeModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VovaCodeModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		73DD4E3E689D0589C533D769413A3ABF /* SnowplowCommonParamsProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SnowplowCommonParamsProtocol.h; sourceTree = "<group>"; };
 		7712BAFF367624D6C1276A29CEC103DC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EB058383EBE47121114530625179C8E /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
 		7F173AF9A072314B13A6048665BC76CB /* UICKeyChainStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UICKeyChainStore.m; path = Lib/UICKeyChainStore/UICKeyChainStore.m; sourceTree = "<group>"; };
+		809D20708C39DF5ED0D8980FDDD2BA5D /* SPDeviceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SPDeviceID.h; sourceTree = "<group>"; };
 		823CC9F4AD6474A622759CB2A753CB24 /* SnowplowTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnowplowTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		826C3D682B87679A5AF4DC5E43C78E48 /* Pods-VovaCodeModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VovaCodeModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		88ABD2FD1EDCB4D6DB8788CC543ACEF9 /* Pods_VovaCodeModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VovaCodeModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B53BEC1B82D989C26B117C84774013 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		8B498EE2CF310B95AE4B0D46BB3463A2 /* UICKeyChainStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UICKeyChainStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C3E79EF641CEB1E38201B48027976D4 /* Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.xcconfig; sourceTree = "<group>"; };
+		8E32F98FDA48FC5EFFA3A547CEF98B15 /* VovaCodeModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VovaCodeModule.modulemap; sourceTree = "<group>"; };
 		8E792D97E82348AE98D3486FF445C68A /* SnowplowTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnowplowTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E81A5A370EAF3A390791476C3BE449F /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FMDB.modulemap; sourceTree = "<group>"; };
 		900686243067840D3E229902B3D8016A /* SPRequestCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPRequestCallback.h; path = Snowplow/SPRequestCallback.h; sourceTree = "<group>"; };
@@ -254,6 +271,7 @@
 		9510BF2D21A16B322A2422085CDE1BF2 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		958219B0D94F22112A8AF05A0EACF26E /* SPSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPSession.m; path = Snowplow/SPSession.m; sourceTree = "<group>"; };
 		9759EE3C4FE649ADA38D37C191E9DCAD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E3E93C491DE389C73F7BE91F6DF4F7D /* VovaCodeModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = VovaCodeModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0FEA5676AE43D2F1CE2216A98DAD31C /* Pods-VovaCodeModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VovaCodeModule_Tests-dummy.m"; sourceTree = "<group>"; };
 		A61D6C797970AC58B5CDAC73F6198774 /* SPSubject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPSubject.m; path = Snowplow/SPSubject.m; sourceTree = "<group>"; };
 		AA0E843D23F698C25A9FED19261A2D6D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
@@ -264,6 +282,7 @@
 		BD7C88FB386B30ECB6A642B9845A4638 /* SPPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPPayload.h; path = Snowplow/SPPayload.h; sourceTree = "<group>"; };
 		BF7529C0AE06657FEF652719DF4AE897 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
 		C11DB273AD07980A12DE6C21BDE0BC20 /* SPSelfDescribingJson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPSelfDescribingJson.h; path = Snowplow/SPSelfDescribingJson.h; sourceTree = "<group>"; };
+		C84184FF57FAAAB1E066264A1B3871E3 /* VovaCodeModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VovaCodeModule-dummy.m"; sourceTree = "<group>"; };
 		CB9A8285AF295F007682854DA5CE96F9 /* SPWeakTimerTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPWeakTimerTarget.h; path = Snowplow/SPWeakTimerTarget.h; sourceTree = "<group>"; };
 		CCC88FDE82319AB0F1A249D0EB85D00C /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		CD7B2460DEF4A4C6F8BF1AD1F1B57035 /* UICKeyChainStore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICKeyChainStore-umbrella.h"; sourceTree = "<group>"; };
@@ -271,6 +290,7 @@
 		D4015C5A78C10C24AEE6F21CDF88001D /* SPEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPEvent.m; path = Snowplow/SPEvent.m; sourceTree = "<group>"; };
 		D5B01670E9CB52FE76A4FBA818DC03C5 /* Pods-VovaCodeModule_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VovaCodeModule_Tests-resources.sh"; sourceTree = "<group>"; };
 		DBBF45601C67E567D1C68889E2ACB405 /* Pods-VovaCodeModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VovaCodeModule_Example-umbrella.h"; sourceTree = "<group>"; };
+		DE7DD1F0B184D426B97B330047AF87C8 /* SnowplowAppCommonParamsProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SnowplowAppCommonParamsProtocol.h; sourceTree = "<group>"; };
 		DF88FC82A9C82BF755C05B76038B8CFA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		DFA7B62ACCE0063212C1EBEDBA672771 /* SPSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPSession.h; path = Snowplow/SPSession.h; sourceTree = "<group>"; };
 		E19630AD14A1194FC52A5DBFB8181BEC /* SPEventStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPEventStore.h; path = Snowplow/SPEventStore.h; sourceTree = "<group>"; };
@@ -283,6 +303,7 @@
 		EF9402E0A3D02F2113ACDA91AF64E4E6 /* SPWeakTimerTarget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPWeakTimerTarget.m; path = Snowplow/SPWeakTimerTarget.m; sourceTree = "<group>"; };
 		F28DC97E1EF8DEFF5E8DA727C99D3AA6 /* Pods-VovaCodeModule_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VovaCodeModule_Example-resources.sh"; sourceTree = "<group>"; };
 		FB0BC0B752ED00A242F11373B478B7BB /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		FB6804269B4DD639C10F7A353B24D1EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FCC1527069FF3669CB8A648ED8375ECE /* SPEmitter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPEmitter.m; path = Snowplow/SPEmitter.m; sourceTree = "<group>"; };
 		FCCC6CAFD9061B91274C1BCF6D4E97B5 /* SPSelfDescribingJson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPSelfDescribingJson.m; path = Snowplow/SPSelfDescribingJson.m; sourceTree = "<group>"; };
 		FD799B64A433DC1C2FACE9852CED7C78 /* Reachability-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-umbrella.h"; sourceTree = "<group>"; };
@@ -359,6 +380,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0811A6D9B2800B0AB676AF9BC3B4F26D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				413DA2F130459A50A689BAABBF419578 /* Info.plist */,
+				8E32F98FDA48FC5EFFA3A547CEF98B15 /* VovaCodeModule.modulemap */,
+				1EE4DF07A669A47F25B4569E7DE76883 /* VovaCodeModule.xcconfig */,
+				C84184FF57FAAAB1E066264A1B3871E3 /* VovaCodeModule-dummy.m */,
+				174E2558F39FD5D4A8690323250478F4 /* VovaCodeModule-prefix.pch */,
+				22C28F7B3648B5657FE0E147BAFC7BA0 /* VovaCodeModule-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VovaCodeModule";
+			sourceTree = "<group>";
+		};
 		0C8261F5FFE930B2F0EDF41411B32AA5 /* UICKeyChainStore */ = {
 			isa = PBXGroup;
 			children = (
@@ -406,30 +441,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3B876CA92111A64C00ECFC2F /* VovaCodeModule */ = {
+		3B876D052111D3AD00ECFC2F /* Sub */ = {
 			isa = PBXGroup;
 			children = (
-				3B876CAA2111A64C00ECFC2F /* Classes */,
-				3B876CB82111A64C00ECFC2F /* Assets */,
+				3B876D062111D3AD00ECFC2F /* SubCode.h */,
+				3B876D072111D3AD00ECFC2F /* SubCode.m */,
 			);
-			name = VovaCodeModule;
-			path = ../../VovaCodeModule;
-			sourceTree = "<group>";
-		};
-		3B876CAA2111A64C00ECFC2F /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		3B876CB82111A64C00ECFC2F /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				3B876CC22111A79700ECFC2F /* TestCode.h */,
-				3B876CC32111A79700ECFC2F /* TestCode.m */,
-			);
-			path = Assets;
+			name = Sub;
+			path = VovaCodeModule/Classes/VovaSubModule/Sub;
 			sourceTree = "<group>";
 		};
 		3CA21418AE8F4AA89D4EE94F790B3221 /* Support Files */ = {
@@ -444,6 +463,16 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FMDB";
+			sourceTree = "<group>";
+		};
+		44B8A2851CE72AF53DEACA544E692776 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FB6804269B4DD639C10F7A353B24D1EE /* LICENSE */,
+				654E148D20A2A5F46A8FB44043AFD513 /* README.md */,
+				9E3E93C491DE389C73F7BE91F6DF4F7D /* VovaCodeModule.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		4A94F60E7448272E25B9F1ED52044F2A /* Pods-VovaCodeModule_Tests */ = {
@@ -573,7 +602,7 @@
 		9E4DD151682928873792E308DE0DF550 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B876CA92111A64C00ECFC2F /* VovaCodeModule */,
+				FB442A5D11FF59A6CF0800CA44260DE4 /* VovaCodeModule */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -594,6 +623,21 @@
 			);
 			name = "Pods-VovaCodeModule_Example";
 			path = "Target Support Files/Pods-VovaCodeModule_Example";
+			sourceTree = "<group>";
+		};
+		BB411A7224F5A412A66B9C7D3EE5A0D6 /* Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				2CA90C08891C1AE74777B93439ACE40D /* Header.h */,
+				43770E18B798AFC886D96596FBF04846 /* SnowPlowAgent.h */,
+				108FEDD069FF47F68C6D0B059DA4BDCD /* SnowPlowAgent.m */,
+				DE7DD1F0B184D426B97B330047AF87C8 /* SnowplowAppCommonParamsProtocol.h */,
+				73DD4E3E689D0589C533D769413A3ABF /* SnowplowCommonParamsProtocol.h */,
+				41ABD4B76E1636A54BE26EC8ECB785C5 /* SnowplowScreenViewParams.h */,
+				1CE405CF8A58AA73519DE839040E42E9 /* SnowplowScreenViewParamsProtocol.h */,
+			);
+			name = Tracker;
+			path = VovaCodeModule/Classes/CoreCode/Tracker;
 			sourceTree = "<group>";
 		};
 		C04E71C41F8CE3E02FAFF2D507A6A929 /* standard */ = {
@@ -623,6 +667,24 @@
 			path = FMDB;
 			sourceTree = "<group>";
 		};
+		D479BB9CE84B202A655006FA8025FE5A /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				809D20708C39DF5ED0D8980FDDD2BA5D /* SPDeviceID.h */,
+				578954A0D963E1377A5FF30ED46FEADD /* SPDeviceID.m */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		E1279A29C3CB83CB6EA97F393B610FA6 /* Utiles */ = {
+			isa = PBXGroup;
+			children = (
+				D479BB9CE84B202A655006FA8025FE5A /* Device */,
+			);
+			name = Utiles;
+			path = VovaCodeModule/Classes/CoreCode/Utiles;
+			sourceTree = "<group>";
+		};
 		F15C73360B3762E646A20EDF7F042FBD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -637,6 +699,19 @@
 			path = "../Target Support Files/SnowplowTracker";
 			sourceTree = "<group>";
 		};
+		FB442A5D11FF59A6CF0800CA44260DE4 /* VovaCodeModule */ = {
+			isa = PBXGroup;
+			children = (
+				3B876D052111D3AD00ECFC2F /* Sub */,
+				44B8A2851CE72AF53DEACA544E692776 /* Pod */,
+				0811A6D9B2800B0AB676AF9BC3B4F26D /* Support Files */,
+				BB411A7224F5A412A66B9C7D3EE5A0D6 /* Tracker */,
+				E1279A29C3CB83CB6EA97F393B610FA6 /* Utiles */,
+			);
+			name = VovaCodeModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -647,7 +722,6 @@
 				F11FAB91014130EE233A3429439D38D7 /* FMDatabase.h in Headers */,
 				A548833BE5FAD40830428F36E77D0F52 /* FMDatabaseAdditions.h in Headers */,
 				9B8D84996694C541CD3434386E0A081A /* FMDatabasePool.h in Headers */,
-				3B876CC42111A79700ECFC2F /* TestCode.h in Headers */,
 				22554065FA07F1BFE5308A685394CB12 /* FMDatabaseQueue.h in Headers */,
 				96E70B43FC04BC99AED1BBD4FB1D7581 /* FMDB-umbrella.h in Headers */,
 				CCB74062CE0F4B8E5B7483599BC398DA /* FMDB.h in Headers */,
@@ -660,8 +734,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC6433436C9593031C2528513494781A /* Reachability-umbrella.h in Headers */,
-				3B876CC72111A79700ECFC2F /* TestCode.h in Headers */,
 				E071345C917506F0498A0FD08441702D /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B1708203C1A9A5219F48107BA7428E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888F665B920BFAE077559A6D97A28950 /* Header.h in Headers */,
+				AF000CE5B5010B43A087C9DAEB85B353 /* SnowPlowAgent.h in Headers */,
+				962B08C8260A96717B7243993B33B831 /* SnowplowAppCommonParamsProtocol.h in Headers */,
+				5A8F11C3F2EDAF3F744D702319E9CA4F /* SnowplowCommonParamsProtocol.h in Headers */,
+				D4487AADC27BD210DFCE0383ED71913F /* SnowplowScreenViewParams.h in Headers */,
+				99D90C0F042891E49DFF966C9B00EAD8 /* SnowplowScreenViewParamsProtocol.h in Headers */,
+				A093A902BE9C91910DB34B0CF761AF1C /* SPDeviceID.h in Headers */,
+				12BAB3A6A146144EDF5DEF9A46A25271 /* VovaCodeModule-umbrella.h in Headers */,
+				3B876D0A2111D3AD00ECFC2F /* SubCode.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -669,8 +758,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B876D092111D3AD00ECFC2F /* SubCode.h in Headers */,
 				556593F257D6BE52F6F6F6028E04B6AA /* Pods-VovaCodeModule_Tests-umbrella.h in Headers */,
-				3B876CC62111A79700ECFC2F /* TestCode.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -679,7 +768,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C114284C0DE59262CB356504B923F8B /* UICKeyChainStore-umbrella.h in Headers */,
-				3B876CC92111A79700ECFC2F /* TestCode.h in Headers */,
 				1DCF56C84F20DCA251644283E78592FC /* UICKeyChainStore.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -699,7 +787,6 @@
 				B43AFD53EC21BC13C8C3A24F38D777BB /* SPRequestResponse.h in Headers */,
 				547A6C5D5D7122D2646E7C655E3AE1C9 /* SPSelfDescribingJson.h in Headers */,
 				289D3B4C05816D9F4E3C5AB7B9E186AC /* SPSession.h in Headers */,
-				3B876CC82111A79700ECFC2F /* TestCode.h in Headers */,
 				84755A70E03939ED494E457FC9CE3A2F /* SPSubject.h in Headers */,
 				6D6A50634CE7AD7EB5AA5E1EEC2CF456 /* SPTracker.h in Headers */,
 				34729B7D8C99829D31DFD8DF7DB537B7 /* SPUtilities.h in Headers */,
@@ -707,20 +794,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF6EF6B123FD1A2DB04A88BAC7696BFF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3B876CCA2111A79700ECFC2F /* TestCode.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FEA8E808FFA9A49DCF49807EAC60BF71 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B876D082111D3AD00ECFC2F /* SubCode.h in Headers */,
 				F370F2C2C3EE870763A058EF90453192 /* Pods-VovaCodeModule_Example-umbrella.h in Headers */,
-				3B876CC52111A79700ECFC2F /* TestCode.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -783,9 +862,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7731EFBA46A0320EA91B4161A20052A2 /* Build configuration list for PBXNativeTarget "VovaCodeModule" */;
 			buildPhases = (
-				0B7F9B97B088EE1BB5DA2DFD1E2576DA /* Sources */,
+				BB16929717EF622C7C28FC34BB4754CA /* Sources */,
 				AC998120EE77BE5628507617AACF15E8 /* Frameworks */,
-				EF6EF6B123FD1A2DB04A88BAC7696BFF /* Headers */,
+				47B1708203C1A9A5219F48107BA7428E /* Headers */,
 			);
 			buildRules = (
 			);
@@ -897,15 +976,6 @@
 			files = (
 				1204ECBC52F1E8EAC51CF479E108DB6E /* Reachability-dummy.m in Sources */,
 				7210275458A8C0675CC34B9277981E51 /* Reachability.m in Sources */,
-				3B876CCE2111A79700ECFC2F /* TestCode.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0B7F9B97B088EE1BB5DA2DFD1E2576DA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3B876CD12111A79700ECFC2F /* TestCode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -915,7 +985,6 @@
 			files = (
 				481CEA996F646491011B3C06F5EC80FD /* UICKeyChainStore-dummy.m in Sources */,
 				A5CBC7B2E8C8F1A1DC9DE36699F0F83D /* UICKeyChainStore.m in Sources */,
-				3B876CD02111A79700ECFC2F /* TestCode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -925,7 +994,6 @@
 			files = (
 				37F097E2269EF1BD238AD7449D796445 /* FMDatabase.m in Sources */,
 				9C11A290C9C5866A185A54F1EC04E2BB /* FMDatabaseAdditions.m in Sources */,
-				3B876CCB2111A79700ECFC2F /* TestCode.m in Sources */,
 				C605A44DF96E7FCACF7D6E37B62F795D /* FMDatabasePool.m in Sources */,
 				A1B5D80A8998311B8C9043E6942925E6 /* FMDatabaseQueue.m in Sources */,
 				D5991941DC41DDDDDACAE0B5D47A4639 /* FMDB-dummy.m in Sources */,
@@ -937,8 +1005,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B876CCC2111A79700ECFC2F /* TestCode.m in Sources */,
 				6A94A17E8DF171297F9A735F53D22441 /* Pods-VovaCodeModule_Example-dummy.m in Sources */,
+				3B876D0B2111D3AD00ECFC2F /* SubCode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB16929717EF622C7C28FC34BB4754CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690C3DE177653578F6F8836038DC3CFD /* SnowPlowAgent.m in Sources */,
+				3B876D0D2111D3AD00ECFC2F /* SubCode.m in Sources */,
+				2643CF0F27DECC92721EC5D7136F3B6E /* SPDeviceID.m in Sources */,
+				8070CA7F279A86A4BEB36EF47A0FE260 /* VovaCodeModule-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -948,7 +1027,6 @@
 			files = (
 				D73ADCDD8EB66A6E665684B6FCAAAA7A /* OpenIDFA.m in Sources */,
 				ADE47A13AB5C1966D2082436C0D3B1CA /* Snowplow.m in Sources */,
-				3B876CCF2111A79700ECFC2F /* TestCode.m in Sources */,
 				10A2A06971CAE73D2EFFB2D4A2429CFA /* SnowplowTracker-dummy.m in Sources */,
 				C82BCC8CB01B8F21607C29A153F28E85 /* SPEmitter.m in Sources */,
 				AE42F6BD2B4F444E1DC853CC1A0E9B51 /* SPEvent.m in Sources */,
@@ -968,8 +1046,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B876CCD2111A79700ECFC2F /* TestCode.m in Sources */,
 				DF4E5EEDAD53F96181FEE85CAF815820 /* Pods-VovaCodeModule_Tests-dummy.m in Sources */,
+				3B876D0C2111D3AD00ECFC2F /* SubCode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1083,6 +1161,7 @@
 		};
 		2F2364BFF9B2330209689DDA245579AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EE4DF07A669A47F25B4569E7DE76883 /* VovaCodeModule.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1458,6 +1537,7 @@
 		};
 		A1DD274F206979CCF8F017F692962961 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EE4DF07A669A47F25B4569E7DE76883 /* VovaCodeModule.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

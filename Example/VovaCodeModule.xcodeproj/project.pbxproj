@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Yongjian Ling";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = ATG8B5M5D7;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -493,6 +496,7 @@
 			baseConfigurationReference = AE24490EBF66AD77EC5D8231 /* Pods-VovaCodeModule_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ATG8B5M5D7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VovaCodeModule/VovaCodeModule-Prefix.pch";
 				INFOPLIST_FILE = "VovaCodeModule/VovaCodeModule-Info.plist";
@@ -508,6 +512,7 @@
 			baseConfigurationReference = 28601D99E22603D9760EE461 /* Pods-VovaCodeModule_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ATG8B5M5D7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VovaCodeModule/VovaCodeModule-Prefix.pch";
 				INFOPLIST_FILE = "VovaCodeModule/VovaCodeModule-Info.plist";

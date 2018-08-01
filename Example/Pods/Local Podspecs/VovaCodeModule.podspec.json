@@ -26,5 +26,11 @@
     "UICKeyChainStore": [
       "~> 2.1.1"
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "VovaSubModule",
+      "source_files": "VovaCodeModule/Classes/VovaSubModule/*.{h,m}"
+    }
+  ]
 }
