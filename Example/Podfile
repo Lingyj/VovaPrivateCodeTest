@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VovaCodeModule_Example' do
+  pod 'VovaCodeModule', :path => '../'
+
+  target 'VovaCodeModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
