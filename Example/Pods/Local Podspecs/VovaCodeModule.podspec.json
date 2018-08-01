@@ -1,0 +1,30 @@
+{
+  "name": "VovaCodeModule",
+  "version": "0.1.0",
+  "summary": "VovaCodeModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Yongjian Ling/VovaCodeModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Yongjian Ling": "yjling@i9i8.com"
+  },
+  "source": {
+    "git": "https://github.com/Lingyj/VovaPrivateCodeTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "VovaCodeModule/Classes/**/*",
+  "dependencies": {
+    "SnowplowTracker": [
+      "~> 0.8.0"
+    ],
+    "UICKeyChainStore": [
+      "~> 2.1.1"
+    ]
+  }
+}

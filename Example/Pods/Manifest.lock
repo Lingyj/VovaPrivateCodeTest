@@ -1,0 +1,37 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - Reachability (3.2)
+  - SnowplowTracker (0.8.0):
+    - FMDB (= 2.6.2)
+    - Reachability (= 3.2)
+  - UICKeyChainStore (2.1.1)
+  - VovaCodeModule (0.1.0):
+    - SnowplowTracker (~> 0.8.0)
+    - UICKeyChainStore (~> 2.1.1)
+
+DEPENDENCIES:
+  - VovaCodeModule (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FMDB
+    - Reachability
+    - SnowplowTracker
+    - UICKeyChainStore
+
+EXTERNAL SOURCES:
+  VovaCodeModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SnowplowTracker: a4b9eff144099253bfaed31ede74447a48f9f02c
+  UICKeyChainStore: 239558492fa260531a0774cfc611ea83a6eaff3a
+  VovaCodeModule: f4ee704c98a8612758623fae0078eb28b1b03445
+
+PODFILE CHECKSUM: 12c7dbfc72c78f27799d9fae641c2c5bf451029b
+
+COCOAPODS: 1.5.3
